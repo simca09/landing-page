@@ -11,21 +11,25 @@ body {
     justify-content: center;
 }
 
-.header {
+.hero {
     display: flex;
     justify-content: space-between;
-    padding: 24px 48px;
-    margin: 0;
+    padding: 1rem 8rem;
 }
-
-.header .logo {
-    display: flex; 
+    
+.image {
+    display: flex;
+    width: 8em;
+    height: 8em;
+    /* margin: 0; */
+    /* flex: 1 1 auto; */
+    /* justify-content: flex-end; */
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 4rem;    
 }
 
 a {
@@ -33,26 +37,8 @@ a {
     color: #667;
 }
 
-.header, .hero, .footer {
+.hero, .footer {
     background-color: #1f2937;
-}
-
-.hero {
-display: flex;
-flex-shrink: 0;
-}
-
-.hero .container {
-    
-}
-
-.hero .image {
-    display: flex;
-    width: 150px;
-    height: 150px;
-    margin: 0;
-    flex: 1 1 auto;
-    justify-content: center;
 }
 
 .footer {
