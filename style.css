@@ -15,6 +15,7 @@ body {
     justify-content: space-around;
     padding: 24px 96px;
     border: 4px solid rgb(63, 106, 226);
+    flex: 1;
 }
 
 .left, .right {
@@ -70,7 +71,31 @@ p, a {
     color: #e5e7eb;
 }
 
-img {
+.right img {
     width: 435px;
     border-radius: 20px;
 } 
+
+/* info starts here*/
+
+h2 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+}
+
+.info {
+    border: 2px solid rgb(197, 197, 82);
+    justify-content: space-around
+}
+
+.card-container{
+    display: flex;
+    border: 2px solid red;
+}
+
+.info img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
